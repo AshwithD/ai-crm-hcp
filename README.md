@@ -1,8 +1,8 @@
-# AI-First CRM – HCP Interaction Module
+# 🧠 AI-First CRM – HCP Interaction Module
 
 This project implements the "Log Interaction Screen" for an AI-first CRM system designed for Life Sciences field representatives.
 
-## Tech Stack
+## 🧰 Tech Stack
 - Frontend: React + Redux
 - Backend: FastAPI (Python)
 - AI Agent Framework: LangGraph
@@ -27,9 +27,15 @@ React UI → FastAPI → LangGraph Router → Tool → LLM → Structured JSON �
 - The left panel auto-fills using Redux state.
 - Edits happen only via chat.
 
-## Run Locally
+## 🚀 Run Locally
 
 ### Backend
 ```bash
 pip install fastapi uvicorn langgraph langchain-groq sqlalchemy python-dotenv
 uvicorn main:app --reload
+
+```
+🧑‍💻 Author
+
+Ashwith D
+Built as part of a technical challenge using LangGraph + LLM tools.
