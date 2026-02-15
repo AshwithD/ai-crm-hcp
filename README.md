@@ -35,6 +35,16 @@ pip install fastapi uvicorn langgraph langchain-groq sqlalchemy python-dotenv
 uvicorn main:app --reload
 
 ```
+
+## 🔗 Live Demo
+
+- **Frontend (Live App):**  
+  https://ai-crm-hcp-nu.vercel.app/
+
+
+- **Backend (API):**  
+  https://ai-crm-hcp.onrender.com/
+
 🧑‍💻 Author
 
 Ashwith D
